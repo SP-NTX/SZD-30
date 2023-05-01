@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+	<sim>
+	
+		<description>SZD-50-3 Puchacz</description>
+		
+		<long-description>
+		Taki tam fajny szybowiec
+		</long-description>
+		
+		<aircraft-version>0.1.0</aircraft-version> <!-- type.release.bugfix -->	
+		
+		<minimum-fg-version>2019.1.0</minimum-fg-version>
+		
+		<expected-aircraft-dir-name>SZD-50</expected-aircraft-dir-name>
+		
+		<rating>
+			<FDM type="int">0</FDM>
+			<systems type="int">0</systems>
+			<cockpit type="int">0</cockpit>
+			<model type="int">0</model>
+		</rating>
+		
+		<authors>
+			<author n="1">
+				<name>SP-NTX</name>
+				<description>exactly nothing</description>
+			</author>
+			<author n="2">
+				<name>Jakub Kosakowski</name>
+				<description>data but will be more, i hope so</description>
+				<nick>jakkos</nick>
+			</author>
+		</authors>
+		
+		<tags>
+			<tag>glider</tag>
+			<tag>szd</tag>
+			<tag>puchacz</tag>
+		</tags>	
+		
+<!--		<urls>
+			<home-page>http://wiki.flightgear.org/UFO_from_the_%27White_Project%27_of_the_UNESCO</home-page>
+			<support>http://forum.flightgear.org</support>
+			<wikipedia>https://en.wikipedia.org/wiki/Unidentified_flying_object</wikipedia>
+			<code-repository>https://sourceforge.net/p/flightgear/fgdata/ci/next/tree/Aircraft/ufo/</code-repository>
+		</urls> -->
+		
+		<flight-mode>null</flight-mode>
+		<aero></aero>
+		
+		<model>
+			<path></path>
+		</model>
+		
+	</sim>
+	
+</PropertyList>
