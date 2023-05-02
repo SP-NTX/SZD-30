@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <PropertyList>
-
 	<sim>
-	
 		<description>SZD-50-3 Puchacz</description>
-		
 		<long-description>
-		Taki tam fajny szybowiec
+			The "Puchacz", which means "Great Owl" in French, is a two-seater glider manufactured in Poland
+			for ab-initio training and aerobatics. It is built by the PZL Bielsko company, 
+			which has produced many glider models since 1948, including the Jantar single-seater and the Perkoz, 
+			a more high-performance two-seater.
 		</long-description>
 		
-		<aircraft-version>0.1.0</aircraft-version> <!-- type.release.bugfix -->	
-		
-		<minimum-fg-version>2019.1.0</minimum-fg-version>
+		<aircraft-version>1.0.0</aircraft-version>
+		<status>alpha</status>
+		<minimum-fg-version>2020.4.0</minimum-fg-version>
 		
 		<expected-aircraft-dir-name>SZD-50</expected-aircraft-dir-name>
 		
@@ -25,12 +24,12 @@
 		
 		<authors>
 			<author n="1">
-				<name>SP-NTX</name>
-				<description>exactly nothing</description>
+				<nick>SP-NTX</nick>
+				<description></description>
 			</author>
 			<author n="2">
 				<name>Jakub Kosakowski</name>
-				<description>data but will be more, i hope so</description>
+				<description>Data, but I hope it will be more</description>
 				<nick>jakkos</nick>
 			</author>
 		</authors>
@@ -39,22 +38,21 @@
 			<tag>glider</tag>
 			<tag>szd</tag>
 			<tag>puchacz</tag>
+			<tag>pzl</tag>
+			<tag>two-seater</tag>
 		</tags>	
 		
-<!--		<urls>
-			<home-page>http://wiki.flightgear.org/UFO_from_the_%27White_Project%27_of_the_UNESCO</home-page>
-			<support>http://forum.flightgear.org</support>
-			<wikipedia>https://en.wikipedia.org/wiki/Unidentified_flying_object</wikipedia>
-			<code-repository>https://sourceforge.net/p/flightgear/fgdata/ci/next/tree/Aircraft/ufo/</code-repository>
-		</urls> -->
+		<urls>
+			<home-page>http://wiki.flightgear.org/SZD-50</home-page>
+			<support>https://github.com/SP-NTX/SZD-50/issues</support>
+			<code-repository>https://github.com/SP-NTX/SZD-50</code-repository>
+		</urls>
 		
-		<flight-mode>null</flight-mode>
-		<aero></aero>
+		<flight-model>jsb</flight-model>
+		<aero>Systems/SZD-50-fdm</aero>
 		
 		<model>
-			<path></path>
+			<path>Aircraft/SZD-50/Models/SZD-50.xml</path>
 		</model>
-		
 	</sim>
-	
 </PropertyList>
