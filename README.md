@@ -1,3 +1,3 @@
-# SZD-50 Jantar
+# SZD-50 Puchacz
 
 GNU GPL v2+
